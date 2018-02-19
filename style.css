@@ -1,0 +1,129 @@
+
+
+body {
+  margin: 20px;
+  text-align: center;
+}
+
+span {
+  display: block;
+  margin: 20px;
+}
+
+header {
+  background-color: red;
+  float: left;
+  width: 100%;
+  height: 75px;
+}
+
+#div-b {
+  background-color: green;
+  float: left;
+  width: 100%;
+  height: 150px;
+}
+
+#div-c {
+  background-color: yellow;
+  float: left;
+  width: 100%;
+  height: 125px;
+}
+
+#div-d {
+  background-color: blue;
+  float: left;
+  width: 100%;
+  height: 125px;
+}
+
+#div-e {
+  background-color: magenta;
+  height: 240px;
+  float: left;
+  width: 50%;
+}
+
+#div-f {
+  background-color: purple;
+  height: 240px;
+  width: 50%;
+  float: left;
+  clear: right;
+}
+
+#div-g {
+  background-color: lightblue;
+  height: 240px;
+  width: 50%;
+  float: left;
+  
+}
+
+#div-h {
+  background-color: lightgreen;
+  height: 240px;
+  width: 50%;
+  float: left;
+  clear: right;
+}
+
+#footer {
+  float: left;
+  width: 100%;
+  background-color: aqua;
+  display: block;
+  height: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+
+body {
+  margin: 20px auto;
+  text-align: center;
+  max-width: 1000px;
+}
+
+main {
+  margin: 0 20px;
+}
+
+header {
+  height: 100px;
+}
+
+#div-b {
+  float: left;
+  height: 600px;
+  width: 20%;
+}
+
+#div-c {
+  float: left;
+  height: 200px;
+  width: 40%;
+}
+
+#div-d {
+  float: left;
+  height: 200px;
+  width: 40%;
+}
+
+#div-e, #div-f, #div-g, #div-h {
+  height: 250px;
+  width: 20%;
+}
+
+#footer {
+  width: 80%;
+  height: 150px;
+}
+
+#footer span {
+  display: none;
+}
+
+}
+
