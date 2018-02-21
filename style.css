@@ -5,12 +5,19 @@ body {
   text-align: center;
 }
 
+div {
+  position: relative;
+}
+
 span {
+  position: absolute;
+  left: 50%;
+  top: 45%;
   display: block;
-  margin: 20px;
 }
 
 header {
+  position: relative;
   background-color: red;
   float: left;
   width: 100%;
